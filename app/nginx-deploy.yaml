@@ -15,5 +15,5 @@ spec:
         app: nginx
     spec:
       containers:
-        - image: nginx
+        - image: arm64v8/nginx
           name: nginx
