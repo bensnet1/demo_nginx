@@ -10,6 +10,7 @@ spec:
     - port: 9080
       protocol: TCP
       targetPort: 80
+      nodePort: 30080
   selector:
     app: nginx-demo
-  type: LoadBalancer
+  type: NodePort
